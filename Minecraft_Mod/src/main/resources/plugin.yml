@@ -1,0 +1,48 @@
+name: Aitor_Mod
+version: '${project.version}'
+main: aitor.aitor.Aitor
+api-version: 1.16
+commands:
+  wave2:
+    description: wave2
+    usage: /<command>
+  start:
+    description: start
+    usage: /<command>
+  level2:
+    description: level2
+    usage: /<command>
+  cinematic1:
+    description: cinematic1
+    usage: /<command>
+  checkpoint2:
+    description: checkpoint2
+    usage: /<command>
+  puertahierro:
+    description: puertahierro
+    usage: /<command>
+  finish:
+    description: finish
+    usage: /<command>
+  spawnskeletons:
+    description: spawnskeletons
+    usage: /<command>
+  spawnsemiboss:
+    description: spawnsemiboss
+    usage: /<command>
+  tptostart:
+    description: tptostart
+    usage: /<command>
+  delrocky:
+    description: delrocky
+    usage: /<command>
+  susto:
+    description: susto
+    usage: /<command>
+  checkpoint3:
+    description: checkpoint3
+    usage: /<command>
+  spawnspider:
+    description: spawnspider
+    usage: /<command>
+
