@@ -135,7 +135,7 @@ public class FirstWave implements Listener {
 
         if (z > 4498) {
             event.setCancelled(true);
-            event.getPlayer().sendMessage("No intentes romper bloques rata.");
+            event.getPlayer().sendMessage("No intentes romper bloques");
             Location loc = new Location(event.getPlayer().getWorld(), x, y, z);
             loc.getBlock().setType(blockType);
 
@@ -147,7 +147,7 @@ public class FirstWave implements Listener {
 
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event){
-        event.getPlayer().sendTitle(ChatColor.GOLD + "ᴮᴵᴱᴺⱽᴱᴺᴵᴰᴼ ᴬᴸ ᴹᴱᴶᴼᴿ ᔆᴱᴿⱽᴱᴿ ᴰᴱ ᴸᴬ ᴴᴵᔆᵀᴼᴿᴵᴬ" , "RATA");
+        event.getPlayer().sendTitle(ChatColor.GOLD + "ᴮᴵᴱᴺⱽᴱᴺᴵᴰᴼ ᴬᴸ ᴹᴱᴶᴼᴿ ᔆᴱᴿⱽᴱᴿ ᴰᴱ ᴸᴬ ᴴᴵᔆᵀᴼᴿᴵᴬ");
     }
 
 }
